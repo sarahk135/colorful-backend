@@ -1,0 +1,41 @@
+{
+  "name": "sarahk135/colorful-backend",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0-stable",
+  "description": "Adds back color to the Modulemenu Icons. Can be activated in user settings. Works with dark/light mode and all standard backend themes.",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "authors": [
+    {
+      "name": "Sarah Klose",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^14.0"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "colorful_backend",
+      "version": "1.0.0-stable",
+      "Package": {
+        "providesPackages": {}
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "sarahk135\\ColorfulBackend\\": "Classes/"
+    }
+  },
+  "keywords": [
+    "typo3",
+    "backend",
+    "colorful",
+    "theme",
+    "icons",
+    "color",
+    "modulemenu"
+  ]
+}

@@ -1,0 +1,106 @@
+/**
+ * 
+ * Adds back the usual modulmenu icon colors.
+ *
+ * 
+ */
+
+.modulemenu-icon{
+  background-color:#6a6e6e;
+}
+
+.modulemenu-action[data-moduleroute-identifier="web_layout"] .modulemenu-icon {
+  background-color: rgb(238, 132, 51);
+  ;
+}
+
+.modulemenu-action[data-moduleroute-identifier="page_preview"] .modulemenu-icon {
+  background-color: rgb(208, 64, 56);
+  ;
+}
+
+.modulemenu-action[data-moduleroute-identifier="records"] .modulemenu-icon {
+  background-color: rgb(202, 100, 52);
+}
+
+.modulemenu-action[data-moduleroute-identifier="web_FormFormbuilder"] .modulemenu-icon {
+  background-color: rgb(59, 126, 176);
+}
+
+.modulemenu-action[data-moduleroute-identifier="content_status"] .modulemenu-icon {
+  background-color: #6DAAE0;
+}
+
+.modulemenu-action[data-moduleroute-identifier="recycler"] .modulemenu-icon {
+  background-color: #5D6364;
+}
+
+.modulemenu-action[data-moduleroute-identifier="media_management"] .modulemenu-icon {
+  background-color: rgb(76, 126, 58);
+}
+
+.modulemenu-action[data-moduleroute-identifier="dashboard"] .modulemenu-icon {
+  background-color: rgb(164, 39, 106);
+}
+
+.modulemenu-action[data-modulemenu-identifier="site"] .modulemenu-icon {
+  background-color: rgb(67, 155, 146);
+}
+
+.modulemenu-action[data-moduleroute-identifier="extensionmanager"] .modulemenu-icon {
+  background-color: #F08D34;
+}
+
+.modulemenu-action[data-moduleroute-identifier="system_environment"] .modulemenu-icon {
+  background-color: rgb(66, 137, 84);
+}
+
+.modulemenu-action[data-moduleroute-identifier="site_configuration"] .modulemenu-icon {
+  background-color: rgb(67, 155, 146);
+}
+
+.modulemenu-action[data-moduleroute-identifier="pagetsconfig"] .modulemenu-icon {
+  background-color: rgb(26, 86, 143);
+}
+
+.modulemenu-action[data-moduleroute-identifier="web_ts"] .modulemenu-icon {
+  background-color: rgb(153, 51, 204);
+}
+
+.modulemenu-action[data-moduleroute-identifier="system_upgrade"] .modulemenu-icon {
+  background-color: #6C9DCC;
+}
+
+.modulemenu-action[data-moduleroute-identifier="content_security_policy"] .modulemenu-icon {
+  background-color: #235594;
+}
+
+.modulemenu-action[data-moduleroute-identifier="system_settings"] .modulemenu-icon {
+  background-color: #1D588E;
+}
+
+.modulemenu-action[data-moduleroute-identifier="system_maintenance"] .modulemenu-icon {
+  background-color: #D03F38;
+}
+
+.modulemenu-action[data-moduleroute-identifier="system_log"] .modulemenu-icon {
+  background-color: #D04139;
+}
+
+.modulemenu-action[data-moduleroute-identifier="integrations"] .modulemenu-icon {
+  background: linear-gradient(#E91E63, #631EE9);
+}
+
+.modulemenu-action[data-moduleroute-identifier="permissions_pages"] .modulemenu-icon {
+  background-color: #184F44;
+}
+
+.modulemenu-action[data-moduleroute-identifier="backend_user_management"] .modulemenu-icon {
+  background-color: #59F;
+}
+
+.modulemenu-group-container .icon {
+  --icon-color-accent: rgb(255, 253, 255);
+  --icon-color-primary: white;
+}
+
