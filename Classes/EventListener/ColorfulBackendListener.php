@@ -17,7 +17,7 @@ final readonly class ColorfulBackendListener
     public function __invoke(BeforeBackendPageRenderEvent $event): void
     {
         
-        if($GLOBALS['BE_USER']->uc['colorful_icons']){
+        if($GLOBALS['BE_USER']->uc['colorful_icons'] ?? false){
             $event->pageRenderer->addCssFile('EXT:colorful_backend/Resources/Public/Css/cbe_backend.css');
         }     
         
